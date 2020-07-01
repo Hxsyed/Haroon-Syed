@@ -1,0 +1,260 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+/* NAV SECTION BEGINS HERE */
+
+.nav {
+  float: right;
+  list-style-type: none;
+  font-size: 13px;
+  width: 100%;
+  height: 100px;
+  background: black;
+  text-align: right;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+ul li {
+  display: inline-block;
+  margin: 30px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav button {
+  font-size: 13px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  /* animate and time the transitions*/
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.nav button:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* NAV SECTION ENDS HERE */
+
+/* HOME SECTION BEGINS HERE */
+
+.homesection {
+  color: white;
+  width: 100%;
+  height: 800px;
+}
+#homesection {
+  height: 200px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 200px;
+  line-height: 60px;
+}
+#h4home {
+  font-size: 30px;
+}
+#h1home {
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+#inventhome {
+  font-size: 60px;
+}
+#phome {
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 500px;
+  padding-bottom: 40px;
+}
+.homesection button {
+  font-size: 14px;
+  padding: 20px 28px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  /* animate and time the transitions*/
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.homesection button:hover {
+  background-color: white;
+  color: black;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* HOME SECTION ENDS HERE */
+
+/* ABOUT SECTION BEINGS HERE */
+.aboutsection {
+  color: white;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+}
+#aboutsection {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-left: 250px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+#paraone {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#paratwo {
+  padding-bottom: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#abtimage {
+  width: 50%;
+  height: 100px;
+  width: 250px;
+  margin: 350px 200px;
+}
+.aboutlist ul li:before {
+  content: "\25B9";
+  margin: 5px;
+}
+
+/* ABOUT SECTION ENDS HERE */
+
+/* CONTACT SECTION BEGINS HERE */
+
+.contactsection {
+  color: white;
+  width: 100%;
+  height: 675px;
+  line-height: 40px;
+  text-align: center;
+}
+#contactsection {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+#WN {
+  text-align: center;
+  font-size: 16px;
+  list-style-position: inside;
+}
+#onecontact {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+#pcontact {
+  text-align: center;
+  font-size: 20px;
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.contactbutton button {
+  font-size: 14px;
+  color: white;
+  padding: 20px 28px;
+  border-radius: 5px;
+  background-color: transparent;
+  /* animate and time the transitions*/
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.contactbutton button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* CONTACT SECTION ENDS HERE */
+
+/* FOOTER SECTION BEGINS HERE */
+
+footer {
+  height: 100px;
+}
+
+.iconlogo {
+  background-color: black;
+  text-align: center;
+  word-spacing: 50px;
+  font-size: large;
+  padding-top: 20px;
+}
+.iconlogo ion-icon {
+  color: white;
+  font-size: 40px;
+}
+.footertext {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px;
+}
+.iconlogo {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.ion-social-linkedin:hover {
+  color: #007bb5;
+}
+
+.ion-social-github:hover {
+  color: #f4cbb2;
+}
+
+.ion-social-instagram:hover {
+  color: #c32aa3;
+}
+
+/* FOOTER SECTION ENDS HERE */
+
+/* RESPONSIVE */
+@media screen and (max-width: 1400px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+    right: 0px;
+  }
+  .homesection {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
