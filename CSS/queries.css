@@ -1,0 +1,97 @@
+/* RESPONSIVE */
+@media screen and (max-width: 1400px) {
+    .nav {
+      flex-direction: column;
+      text-align: center;
+      right: 0px;
+    }
+    .homesection {
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #abtimage {
+      margin-top: 20%;
+    }
+    #phome{
+      flex-direction: column;
+      text-align: center;
+      right: 0px;
+      justify-content: center;
+      margin: 0 auto;
+    }
+  }
+
+  /* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    #homesection {
+        flex-direction: column;
+        text-align: center;
+        right: 0px;
+        justify-content: center;
+      }
+      #phome {
+        flex-direction: column;
+        text-align: center;
+        right: 0px;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      .homesection {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .aboutsection{
+          flex-direction: column;
+          justify-content: center;
+      }
+      #aboutsection,#abtimage{
+          width: 80%;
+          margin: 0 auto;
+      }
+      #abtimage {
+          justify-content: center;
+          height: auto;
+          width: 250px;
+      }
+      #pcontact{
+        width: 70%;
+      }
+}
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+   .nav{
+    flex-direction: column;
+    text-align: center;
+    right: 0px;
+   }
+   #homesection{
+    padding-top: 125px;
+   }
+   #h4home {
+    font-size: 24px;
+  }
+  #h1home {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  #inventhome {
+    font-size: 40px;
+  }
+  #phome{
+      font-size: 18px;
+      line-height: 30px;
+  }
+  .aboutlist ul {
+    text-align: center;
+  }
+  #pcontact{
+    width: 70%;
+  }
+}
