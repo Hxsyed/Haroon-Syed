@@ -9,9 +9,10 @@
       text-align: center;
       flex-direction: column;
       justify-content: center;
+      padding-bottom: 300px;
     }
     #abtimage {
-      margin-top: 20%;
+      margin-top: 23%;
     }
     #phome{
       flex-direction: column;
@@ -19,6 +20,9 @@
       right: 0px;
       justify-content: center;
       margin: 0 auto;
+    }
+    #contactsection{
+      margin-top: 100px;
     }
   }
 
@@ -65,14 +69,14 @@
 
 
 /* Small phones to small tablets: from 481px to 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
    .nav{
     flex-direction: column;
     text-align: center;
     right: 0px;
    }
    #homesection{
-    padding-top: 125px;
+    padding-top: 200px;
    }
    #h4home {
     font-size: 24px;
@@ -88,10 +92,48 @@
       font-size: 18px;
       line-height: 30px;
   }
+  #aboutsection{
+    padding-top: 200px;
+  }
   .aboutlist ul {
     text-align: center;
   }
   #pcontact{
     width: 70%;
   }
+  .contactsection{
+    padding-top: 50px;
+    padding-bottom: 800px;
+  }
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  #phome{
+    font-size: 16px;
+    line-height: 20px;
+}
+.homesection{
+  margin-bottom: 75vh;
+}
+.aboutsection{
+  margin-bottom: 50vh;
+}
+.contactsection{
+  margin-bottom: 50vh;
+}
+.aboutlist ul {
+  margin: 30px 0px;
+} 
+.aboutlist ul li{
+  content: "\25B9";
+  margin: 0px;
+} 
+#onecontact{
+  line-height: 55px;
+}
+#pcontact{
+  width: 90%
+}
 }
